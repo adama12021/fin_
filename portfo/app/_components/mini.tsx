@@ -4,7 +4,7 @@ import { Section } from "./Section"
 export const Mini =()=>
     {
         return(
-            <header className="sticky top-0 py-4"> 
+            <header className=" top-0 py-4"> 
                < Section className="flex  items-baselines justify-center">
                
 
