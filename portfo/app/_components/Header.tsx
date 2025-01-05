@@ -22,7 +22,7 @@ export const Header =()=>
 
 
         return(
-            <header className={`sticky top-0 py-4 transition-colors duration-300 ${ isSticky ? 'bg-white ' : 'bg-transparent' } `}> 
+            <header className={`sticky top-0 py-4 transition-colors duration-300 ${ isSticky ? 'bg-gray-900' : 'bg-transparent' } `}> 
                < Section className="flex items-baselines justify-center">
                
 
