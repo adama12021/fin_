@@ -11,6 +11,8 @@ import { Competances } from "./_components/competance";
 import { Parcour } from "./_components/Parcours";
 import { Achivement } from "./_components/Achive";
 import { Pied } from "./_components/pied-vague";
+import { Experience } from "./_components/experience";
+import { Contact } from "./_components/contact";
 
 export default function Home() {
   return (
@@ -28,6 +30,11 @@ export default function Home() {
         <Achivement></Achivement>
         <Spacing size="sm"></Spacing>
         <Parcour></Parcour>
+        <Spacing size="sm"></Spacing>
+        <Experience></Experience>
+        <Spacing size="sm"></Spacing>
+        <Spacing size="sm"></Spacing>
+        <Contact></Contact>
         <Spacing size="sm"></Spacing>
         <Pied></Pied>
     </main>

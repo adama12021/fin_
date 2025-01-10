@@ -27,9 +27,9 @@ export const Header =()=>
                
 
                <ul className="bg-accent rounded-xl p-2 flex items-center justify-between w-full ">
-                <Link href="/About" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'text-green-500 ' : 'text-white' }`} >About</Link>
-                <Link href="/Projet" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'text-green-500 ' : 'text-white' }`} >Projet</Link>
-                <Link  href="/Skills" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'text-green-500 ' : 'text-white' }`} >Tech. & parcours</Link>
+                <Link href="/About" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-green-500 ' : 'text-white' }`} >About</Link>
+                <Link href="/Projet" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-green-500' : 'text-white' }`} >Projet</Link>
+                <Link  href="/Skills" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-green-500' : 'text-white' }`} >Tech. & parcours</Link>
                </ul>
               
               

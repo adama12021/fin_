@@ -78,7 +78,7 @@ export const Parcour =()=>
         return (
             <tr>
             <td className=" px-4 py-2 sm:text-xl font-bold text-green-500 "> <CubeTransparentIcon className="w-6 h-6"></CubeTransparentIcon></td>
-            <td className="px-4 py-2 sm:text-xl">{props.diplome}</td>
+            <td className="px-4 py-2 sm:text-2xl text-green-500">{props.diplome}</td>
             <td className=" px-4 py-2 sm:text-xl">{props.date}</td>
             <td className=" px-4 py-2 sm:text-xl">{props.ecole}</td>
             </tr>
@@ -99,7 +99,7 @@ export const Parcour =()=>
                                     <thead>
                                         <tr className="">
                                             <th></th>
-                                        <th className=" px-4 py-2 text-2xl">Diplome & certification</th>
+                                        <th className=" text-2xl">Diplome & certification</th>
                                         <th className=" px-4 py-2 text-2xl">Années</th>
                                         <th className=" px-4 py-2 text-2xl">Ecoles / Structure</th>
                                         </tr>

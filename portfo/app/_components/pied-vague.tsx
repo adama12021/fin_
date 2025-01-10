@@ -11,7 +11,7 @@ export const Pied = () => {
     return( 
 
     < Section className="flex flex-col items-baselines justify-center">
-   <Wave fill='#4ade80'
+   <Wave fill='#22c55e'
         paused={false}
         style={{ display: 'flex' }}
         options={{
@@ -24,9 +24,9 @@ export const Pied = () => {
     slslslsl
   </Wave>
   {/* Contenu à l'intérieur de la vague (optionnel) */}
-  <div className='bg-green-400 flex max-md:flex-col justify-evenly h-[100px] max-md:h-[200px]'>
-      <h1 className='text-black sm:text-xl max-md:ml-2 '>CAMARA ADAMA</h1>
-      <div className='sm:mt-2 flex  justify-beetween max-md:ml-2  '>
+  <div className='bg-green-500 flex max-md:flex-col justify-evenly h-[100px] max-md:h-[200px]'>
+      <h1 className='text-black sm:text-xl max-md:ml-4 '>CAMARA ADAMA</h1>
+      <div className='sm:mt-2 flex  justify-beetween max-md:ml-4  '>
 
         <div ><X size={20} color='black'></X></div>
         <div className='ml-3'><Linkd size={20} color='black'></Linkd></div>
@@ -35,7 +35,7 @@ export const Pied = () => {
     
       
        </div>
-      <h1 className='text-black max-md:ml-2 '>@copyright camara adama 2025</h1>
+      <h1 className='text-black max-md:ml-4 '>@copyright camara adama 2025</h1>
       
 </div>
 
