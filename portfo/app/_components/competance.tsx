@@ -41,7 +41,7 @@ export const Competances =()=>
                 </div>
                 </div><br/>
 
-                <div className="flex flex-row justify-between max-md:flex-col max-md:flex-reverse">
+                <div className="flex flex-row justify-between max-md:flex-col-reverse">
                 <div className="bg-gray flex-1">
                 <div className="sm:mr-20 ">
                 <h1 className="text-5xl font-bold  text-green-500 max-md:ml-4">

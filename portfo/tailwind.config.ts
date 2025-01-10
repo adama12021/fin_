@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     extend: {
+      tableLayout: ['hover', 'focus'],
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

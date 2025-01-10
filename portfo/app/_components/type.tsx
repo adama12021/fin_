@@ -7,7 +7,7 @@ class Type extends Component {
     return (
       <Typewriter
         options={{
-          strings: ['Data analyst','consultant BI'],
+          strings: ['Data analyst','Consultant BI'],
           autoStart: true,
           loop: true,
           delay: 40

@@ -9,6 +9,8 @@ import { Spacing } from "./_components/space";
 import { Work } from "./_components/Work";
 import { Competances } from "./_components/competance";
 import { Parcour } from "./_components/Parcours";
+import { Achivement } from "./_components/Achive";
+import { Pied } from "./_components/pied-vague";
 
 export default function Home() {
   return (
@@ -23,7 +25,11 @@ export default function Home() {
         <Spacing size="sm"></Spacing>
         <Competances></Competances>
         <Spacing size="sm"></Spacing>
+        <Achivement></Achivement>
+        <Spacing size="sm"></Spacing>
         <Parcour></Parcour>
+        <Spacing size="sm"></Spacing>
+        <Pied></Pied>
     </main>
   );
 }

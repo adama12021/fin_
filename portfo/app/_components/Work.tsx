@@ -7,7 +7,7 @@ export const Work =()=>
         return(
             
                < Section className="flex  items-baselines ">
-                <div className="flex flex-col w-full max-md:mt-32 ">
+                <div className="flex flex-col w-full max-md:mt-[300px] ">
                     <h1 className="sm:text-8xl max-md:text-6xl text-white w-full font-bold max-md:ml-4"> <BriefcaseIcon className="sm:h-32 sm:w-32 max-md:h-16 sm:w-16 text-green-500 " ></BriefcaseIcon>Mes projets</h1><br/>
                 
                 <div className="flex flex-row max-md:flex-col justify-between">
@@ -36,7 +36,7 @@ export const Work =()=>
                 </div>
                 </div><br/>
 
-                <div className="flex flex-row justify-between max-md:flex-col max-md:flex-reverse">
+                <div className="flex flex-row justify-between max-md:flex-col-reverse ">
                 <div className="bg-gray flex-1">
                 <div className="sm:mr-20 ">
                 <h1 className="text-7xl font-bold  text-green-500 max-md:ml-4">
