@@ -28,7 +28,7 @@ export const Work =()=>
                     enim eligendi vitae maiores reprehenderit necessitatibus aspernatur animi quo perspiciatis labore voluptate eius velit omnis!
                 </p>
                 <div className="flex flex-row mt-10 max-md:ml-4 ">
-                <Link href="/">en savoir plus  </Link><ArrowUpRightIcon className="h-6 w-6 text-green-500"></ArrowUpRightIcon>
+                <Link href="/Projet">en savoir plus  </Link><ArrowUpRightIcon className="h-6 w-6 text-green-500"></ArrowUpRightIcon>
                 </div>
                 
 

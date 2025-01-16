@@ -22,14 +22,15 @@ export const Header =()=>
 
 
         return(
-            <header className={`sticky top-0 py-4 transition-colors duration-300 ${ isSticky ? 'bg-gray-900' : 'bg-transparent' } `}> 
+            <header className={`sticky     top-0 py-4 transition-colors duration-300 ${ isSticky ? 'bg-green-700' : 'bg-transparent' } `}> 
                < Section className="flex items-baselines justify-center">
                
 
                <ul className="bg-accent rounded-xl p-2 flex items-center justify-between w-full ">
-                <Link href="/About" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-green-500 ' : 'text-white' }`} >About</Link>
-                <Link href="/Projet" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-green-500' : 'text-white' }`} >Projet</Link>
-                <Link  href="/Skills" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-green-500' : 'text-white' }`} >Tech. & parcours</Link>
+
+                <Link href="/About" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-black' : 'text-white' }`} >About</Link>
+                <Link href="/Projet" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-black' : 'text-white' }`} >Projets</Link>
+                <Link  href="/Skills" className={`flex-1 hover:text-green-500 text-2xl ${ isSticky ? 'hover:text-gray-100' : 'text-white' }`} >Tech. & parcours</Link>
                </ul>
               
               

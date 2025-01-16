@@ -13,6 +13,7 @@ import { Achivement } from "./_components/Achive";
 import { Pied } from "./_components/pied-vague";
 import { Experience } from "./_components/experience";
 import { Contact } from "./_components/contact";
+import { Freelance } from "./_components/freelance";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <Spacing size="sm"></Spacing>
         <Experience></Experience>
         <Spacing size="sm"></Spacing>
+        <Freelance></Freelance>
         <Spacing size="sm"></Spacing>
         <Contact></Contact>
         <Spacing size="sm"></Spacing>
