@@ -14,22 +14,22 @@ export const Mini =()=>
                 {/* <div className="max-md:flex max-md:flex-row  max-md:w-full"> */}
                    
                     <div className="flex-col flex-1 ">
-                        <p  className="font-bold">Specialité</p>
-                        <p className="text-green-500 font-bold text-xl">Data Analyst</p>
+                        <p  className="font-bold text-black">Specialité</p>
+                        <p className="text-[#F26430] font-bold text-xl">Data Analyst</p>
                         <hr className="w-[150px]"></hr>
                         <div className="flex gap-20 ">
                         <p>About</p>
-                        <ArrowUpRightIcon  className="h-6 w-6 text-white"></ArrowUpRightIcon>
+                        <ArrowUpRightIcon  className="h-6 w-6 text-red-500"></ArrowUpRightIcon>
                         </div>
                     </div>
                         <br/>
                     <div className="flex-col flex-1 max-md:w-full">
-                        <p  className="font-bold">Disponibilité</p>
-                        <p className="text-green-500 font-bold text-xl">Ouvert</p>
+                        <p  className="font-bold text-black">Disponibilité</p>
+                        <p className="text-[#F26430] font-bold text-xl">Ouvert</p>
                         <hr className="w-[150px]"></hr>
                         <div className="flex gap-20 ">
                         <p>About</p>
-                        <ArrowUpRightIcon  className="h-6 w-6 text-white"></ArrowUpRightIcon>
+                        <ArrowUpRightIcon  className="h-6 w-6 text-red-500"></ArrowUpRightIcon>
                         
                         </div>
 
@@ -39,23 +39,23 @@ export const Mini =()=>
                     <br/>
                     {/* <div className="max-md: flex max-md:flex-row max-md:w-full"> */}
                     <div className="flex-col flex-1 max-md:w-full">
-                        <p  className="font-bold">Années d'experience</p>
-                        <p className="text-green-500 font-bold text-xl">5 ans</p>
+                        <p  className="font-bold text-black">Années d'experience</p>
+                        <p className="text-[#F26430] font-bold text-xl">5 ans</p>
                         <hr className="w-[150px]"></hr>
                         <div className="flex gap-20 ">
                         <p>About</p>
-                        <ArrowUpRightIcon  className="h-6 w-6 text-white"></ArrowUpRightIcon>
+                        <ArrowUpRightIcon  className="h-6 w-6 text-red-500"></ArrowUpRightIcon>
                         </div>
                     </div>
                     <br/>
 
                     <div className="flex-col flex-1 max-md:w-full">
-                        <p className="font-bold">Adresse</p>
-                        <p className="text-green-500 font-bold  ">Cöte d'ivoire, Abidjan </p>
-                        <hr className="w-[160px]"></hr>
+                        <p className="font-bold text-black">Adresse</p>
+                        <p className="text-[#F26430] font-bold  ">Cöte d'ivoire, Abidjan </p>
+                        <hr className="w-[160px] text-black"></hr>
                         <div className="flex gap-20 ">
                         <p>Contact</p>
-                        <ArrowUpRightIcon  className="h-6 w-6 text-white"></ArrowUpRightIcon>
+                        <ArrowUpRightIcon  className="h-6 w-6 text-red-500"></ArrowUpRightIcon>
                         </div>
                     </div>
                     </div>

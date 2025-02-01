@@ -37,7 +37,7 @@ export default function Home() {
         <Freelance></Freelance>
         <Spacing size="sm"></Spacing>
         <Contact></Contact>
-        <Spacing size="sm"></Spacing>
+      
         <Pied></Pied>
     </main>
   );

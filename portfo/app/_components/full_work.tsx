@@ -97,10 +97,10 @@ export const Full_work =()=>
 
             <div className="bg-gray flex-1 ">
             <div className=" sm:ml-20 ">
-            <h1 className="text-7xl font-bold  max-md:ml-4  max-md:mt-6 text-green-500 ">
+            <h1 className="text-7xl font-bold  max-md:ml-4  max-md:mt-6 text-red-500 ">
                 {props.titre}
             </h1>
-            <p className="max-md:ml-4 mt-2">
+            <p className="max-md:ml-4 mt-2 text-black">
                 {props.detail}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, officia esse! Itaque, eaque sed repellendus 
                 enim eligendi vitae maiores reprehenderit necessitatibus aspernatur animi quo perspiciatis labore voluptate eius velit omnis!
@@ -113,7 +113,7 @@ export const Full_work =()=>
             
 
 
-            <div className="flex flex-row mt-6 max-md:ml-4 max-md:mb-4 gap-3">
+            <div className="flex flex-row mt-2 max-md:ml-4 max-md:mb-16 gap-3">
             <Link href="/Projet" className="text-2xl font-bold text-green-500 ">Fichier du projet  </Link><DocumentArrowDownIcon className="h-8 w-8 text-green-500"></DocumentArrowDownIcon>
             </div>
             
@@ -130,7 +130,7 @@ export const Full_work =()=>
             
                < Section className="flex  items-baselines ">
                 <div className="flex flex-col w-full  ">
-                    <h1 className="sm:text-8xl max-md:text-6xl text-white w-full font-bold max-md:ml-4"> <ComputerDesktopIcon className="sm:h-32 sm:w-32 max-md:h-16 sm:w-16 text-green-500 " ></ComputerDesktopIcon>Mes projets Réalisés</h1><br/>
+                    <h1 className="sm:text-8xl max-md:text-6xl text-white w-full font-bold max-md:ml-4"> <ComputerDesktopIcon className="sm:h-32 sm:w-32 max-md:h-16 sm:w-16 text-red-500 " ></ComputerDesktopIcon>Mes projets Réalisés</h1><br/>
                 
                 {
                     Work.map(

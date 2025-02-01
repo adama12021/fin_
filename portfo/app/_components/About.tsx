@@ -43,7 +43,7 @@ export const About = ()=>
                    </p>
 
                    <p className="text-base">
-                   <b className="text-green-500 font-bold">Ce que je peux apporter </b>
+                   <b className="text-red-500 font-bold">Ce que je peux apporter </b>
                     Mon objectif est de créer des designs intuitifs et esthétiques tout en veillant à ce que chaque projet communique efficacement le message du client. 
                     En tant que community manager, je sais comment adapter la stratégie de contenu pour qu'elle résonne avec l'audience ciblée, 
                     créant ainsi des interactions positives et mémorables.
@@ -83,18 +83,18 @@ export const About = ()=>
                         </div>
 
                         <div className="flex-1 flex flex-row ml-5 mb-5">
-                            <Link  href="" className="flex flex-row hover:text-green-500">
+                            <Link  href="www.linkedin.com/in/adama-camara-2a2a0b234" className="flex flex-row hover:text-green-500">
                             <Linkd size={20}></Linkd>
                             <b className="ml-5 text-sm">Suivre sur Linkedin</b>
                             </Link>
                            
                         </div>
-                    <hr className="ml-5 mb-2"></hr>
+                    <hr className="ml-5 mb-2 "></hr>
 
                     <div className="flex-1 flex flex-row ml-5 mb-5">
-                            <Link  href="mailto:ange.bouabre@outlook.fr" className="flex flex-row hover:text-green-500">
+                            <Link  href="mailto:adamscam925@gmail.com" className="flex flex-row hover:text-green-500">
                             <Gmailicon size={20}></Gmailicon>
-                            <b className="ml-5 text-sm">ange.bouabre@outlook.fr</b>
+                            <b className="ml-5 text-sm">adamscam925@gmail.com</b>
                             </Link>
                            
                         </div>

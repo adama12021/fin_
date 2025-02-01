@@ -25,10 +25,9 @@ return(
     </div>
     <About></About>
     <br></br>
-    <hr className="max-w-3xl px-4 m-auto"></hr><br/>
+    <hr className="max-w-5xl px-4 m-auto"></hr><br/>
     <Pied></Pied>
-    <br/>
-    <br/>
+
     </Section>
     </>
 )

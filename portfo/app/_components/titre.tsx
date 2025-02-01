@@ -5,7 +5,7 @@ import Type from "./type"
 export const Titrer =()=>
     {
         return(
-            <header className=" top-0 py-4"> 
+            <header className=" top-0 py-4 bg-[#F24F13]"> 
                < Section className="flex flex-col items-baselines">
 
                <div className="relative  w-full"> {/* Conteneur parent avec position relative et une hauteur définie */}
@@ -16,11 +16,11 @@ export const Titrer =()=>
                 {/* Autre contenu dans le conteneur */}
                 </div>
                
-               <div className="text-7xl text-green-500 max-md:text-3xl max-md:ml-2">
+               <div className="text-7xl text-[#F2C1AE] max-md:text-3xl max-md:ml-2">
                Adama
                </div>
-               <div className="text-9xl text-white-500 max-md:text-7xl">
-                Camara  <div className="text-8xl text-green-500 max-md:text-7xl"><Type ></Type></div> 
+               <div className="text-9xl text-black max-md:text-7xl">
+                Camara  <div className="text-8xl text-white max-md:text-7xl"><Type ></Type></div> 
                </div><br/>
               
                <hr></hr>

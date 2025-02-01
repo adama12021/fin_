@@ -3,7 +3,7 @@ import { Section } from "./Section";
 export const Freelance = ()=>{
     return(
         <Section >
- <div className="bg-green-500 py-5 sm:py-10 m-auto rounded-lg ">
+ <div className="bg-[#F24F13] py-5 sm:py-10 m-auto rounded-lg ">
   <div className="mx-auto max-w-7xl px-2 lg:px-8">
     <dl className="flex justify-center text-center lg:grid-cols-3">
       

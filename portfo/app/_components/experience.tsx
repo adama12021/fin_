@@ -133,7 +133,7 @@ export const Experience =()=>
         return(
             
             < Section className="flex  items-baselines justify-center">
-                <div className="flex flex-col sm:w-full max-md:mt-[300px] ">
+                <div className="flex flex-col sm:w-full max-md:mt-2 ">
                     <h1 className="sm:text-8xl max-md:text-6xl text-white w-full font-bold max-md:ml-4"> 
                         <BriefcaseIcon className="sm:h-32 sm:w-32 max-md:h-16 sm:w-16 text-green-500 " ></BriefcaseIcon>Experience professionnel</h1><br/>
                 
